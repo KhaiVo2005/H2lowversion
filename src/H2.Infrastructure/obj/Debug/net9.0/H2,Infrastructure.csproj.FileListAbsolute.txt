@@ -1,0 +1,6 @@
+C:\Users\Admin\Desktop\H2(lowVersion)\src\H2,Infrastructure\obj\Debug\net9.0\H2,Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\H2(lowVersion)\src\H2,Infrastructure\obj\Debug\net9.0\H2,Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\H2(lowVersion)\src\H2,Infrastructure\obj\Debug\net9.0\H2,Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\H2(lowVersion)\src\H2,Infrastructure\obj\Debug\net9.0\H2,Infrastructure.AssemblyInfo.cs
+C:\Users\Admin\Desktop\H2(lowVersion)\src\H2,Infrastructure\obj\Debug\net9.0\H2,Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\H2(lowVersion)\src\H2,Infrastructure\obj\Debug\net9.0\H2,Infrastructure.sourcelink.json
