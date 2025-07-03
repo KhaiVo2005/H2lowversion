@@ -13,9 +13,10 @@ namespace H2.API.Controllers
     {
         private readonly ISensorDataRepository _sensorDataRepository;
         private readonly UploadSensorDataHandler _uploadSensorDataHandler;
-        public SensorController(ISensorDataRepository sensorDataRepository)
+        public SensorController(ISensorDataRepository sensorDataRepository, UploadSensorDataHandler uploadSensorDataHandler)
         {
             _sensorDataRepository = sensorDataRepository ?? throw new ArgumentNullException(nameof(sensorDataRepository));
+            _uploadSensorDataHandler = uploadSensorDataHandler ?? throw new ArgumentNullException(nameof(uploadSensorDataHandler));
         }
         [HttpGet("latest")]
         public async Task<IActionResult> GetLatestSensorDataAsync(string deviceId,CancellationToken cancellationToken)
@@ -35,7 +36,7 @@ namespace H2.API.Controllers
                 return BadRequest("Invalid sensor data.");
             }
             await _uploadSensorDataHandler.HandleAsync(dto, cancellationToken);
-            return CreatedAtAction(nameof(GetLatestSensorDataAsync), new { deviceId = dto.DeviceId }, dto);
+            return Ok(dto);
         }
     }
 }

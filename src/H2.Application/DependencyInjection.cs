@@ -1,5 +1,4 @@
-﻿using H2.Application.Interfaces;
-using H2.Application.Usecases;
+﻿using H2.Application.Usecases;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace H2.Application

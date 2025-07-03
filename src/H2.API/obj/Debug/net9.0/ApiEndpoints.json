@@ -1,5 +1,37 @@
 [
   {
+    "ContainingType": "H2.API.Controllers.SensorController",
+    "Method": "GetLatestSensorDataAsync",
+    "RelativePath": "api/Sensor/latest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "H2.API.Controllers.SensorController",
+    "Method": "UploadSensorDataAsync",
+    "RelativePath": "api/Sensor/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "H2.Application.DTOs.UploadSensorDataDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "H2.API.Controllers.ThermalImageController",
     "Method": "GetLatestAnomalies",
     "RelativePath": "api/ThermalImage/anomaly-latest",
