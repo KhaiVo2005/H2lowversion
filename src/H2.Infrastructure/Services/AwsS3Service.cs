@@ -25,7 +25,7 @@ namespace H2_Infrastructure.Services
             };
             var transferUtility = new Amazon.S3.Transfer.TransferUtility(_s3Client);
             await transferUtility.UploadAsync(uploadRequest, cancellationToken);
-            return $"https://{_bucketName}.s3.amazonaws.com/thermal-images/{fileName}";
+            return $"https://{_bucketName}.s3.ap-southeast-2.amazonaws.com/{fileName}";
         }
     }
 }
