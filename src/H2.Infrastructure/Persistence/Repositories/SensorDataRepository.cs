@@ -1,4 +1,6 @@
-﻿using H2.Application.Interfaces;
+﻿using H2.Application.DTOs;
+using H2.Application.Helpers;
+using H2.Application.Interfaces;
 using H2.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -11,9 +13,16 @@ namespace H2_Infrastructure.Persistence.Repositories
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
-        public async Task AddAsync(SensorData sensorData, CancellationToken cancellationToken)
+        public async Task AddAsync(UploadSensorDataDTO sensorData, CancellationToken cancellationToken)
         {
-            _context.sensorDatas.Add(sensorData);
+            var entity = new SensorData
+            {
+                Id = Guid.NewGuid(),
+                DeviceId = sensorData.DeviceId,
+                HydrogenPpm = sensorData.HydrogenPpm,
+                AlertLevel = AlertEvaluator.Evaluate(sensorData.HydrogenPpm),
+                Timestamp = DateTime.UtcNow
+            };
             await _context.SaveChangesAsync(cancellationToken);
         }
 

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.api\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\controllers\\sensorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.infrastructure\\services\\awss3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ED2902B-AC8A-F2B5-8CA1-34C6D1AEBCBD}|H2.Infrastructure\\H2.Infrastructure.csproj|solutionrelative:h2.infrastructure\\services\\awss3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -45,15 +53,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250702165029_Init_H2Db.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
-              "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
-              "RelativeToolTip": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Program.cs",
+              "RelativeDocumentMoniker": "H2.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Program.cs",
+              "RelativeToolTip": "H2.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T17:40:58.104Z",
+              "WhenOpened": "2025-07-03T03:40:12.963Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +70,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Controllers\\SensorController.cs",
+              "RelativeDocumentMoniker": "H2.API\\Controllers\\SensorController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Controllers\\SensorController.cs",
+              "RelativeToolTip": "H2.API\\Controllers\\SensorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T03:25:26.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "20250702165029_Init_H2Db.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Migrations\\20250702165029_Init_H2Db.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T17:40:58.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\204a2db3-be6c-48ac-9800-9c8f9d2f3ae8\\secrets.json",
@@ -74,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AwsS3Service.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Services\\AwsS3Service.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\Services\\AwsS3Service.cs",
@@ -82,12 +115,11 @@
               "RelativeToolTip": "H2.Infrastructure\\Services\\AwsS3Service.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAewBsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T16:58:29.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T16:58:29.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ThermalImageController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Controllers\\ThermalImageController.cs",
               "RelativeDocumentMoniker": "H2.API\\Controllers\\ThermalImageController.cs",
@@ -95,12 +127,11 @@
               "RelativeToolTip": "H2.API\\Controllers\\ThermalImageController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAcwDAAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T16:55:01.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T16:55:01.774Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "H2.Infrastructure\\DependencyInjection.cs",
@@ -112,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\appsettings.json",
               "RelativeDocumentMoniker": "H2.API\\appsettings.json",
@@ -120,12 +151,11 @@
               "RelativeToolTip": "H2.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T16:52:53.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T16:52:53.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Dockerfile",
               "RelativeDocumentMoniker": "H2.API\\Dockerfile",
