@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\interfaces\\isensordatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.application\\usecases\\uploadsensordatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\usecases\\uploadsensordatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.domain\\entities\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1004176-7795-4923-A54A-4BA9A1A70667}|H2.Domain\\H2.Domain.csproj|solutionrelative:h2.domain\\entities\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|solutionrelative:h2.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.application\\usecases\\uploadsensordatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37A3ADF4-78B6-4144-BF0D-69393191599F}|H2.Application\\H2.Application.csproj|solutionrelative:h2.application\\usecases\\uploadsensordatahandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BA13E631-1977-D285-2D90-A1A082377244}|H2.API\\H2.API.csproj|c:\\users\\admin\\desktop\\h2(lowversion)\\src\\h2.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,37 +73,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SensorDataRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
-              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
-              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBgAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T04:12:01.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UploadSensorDataDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
-              "RelativeDocumentMoniker": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
-              "RelativeToolTip": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T04:12:24.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "SensorData.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Domain\\Entities\\SensorData.cs",
               "RelativeDocumentMoniker": "H2.Domain\\Entities\\SensorData.cs",
@@ -111,8 +85,7 @@
               "RelativeToolTip": "H2.Domain\\Entities\\SensorData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T04:12:17.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T04:12:17.369Z"
             },
             {
               "$type": "Document",
@@ -122,14 +95,14 @@
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\ISensorDataRepository.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\Interfaces\\ISensorDataRepository.cs",
               "RelativeToolTip": "H2.Application\\Interfaces\\ISensorDataRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T04:11:37.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IThermalImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\Interfaces\\IThermalImageRepository.cs",
               "RelativeDocumentMoniker": "H2.Application\\Interfaces\\IThermalImageRepository.cs",
@@ -137,8 +110,7 @@
               "RelativeToolTip": "H2.Application\\Interfaces\\IThermalImageRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T04:11:45.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T04:11:45.552Z"
             },
             {
               "$type": "Document",
@@ -148,23 +120,48 @@
               "RelativeDocumentMoniker": "H2.API\\Controllers\\SensorController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Controllers\\SensorController.cs",
               "RelativeToolTip": "H2.API\\Controllers\\SensorController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T03:25:26.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "UploadSensorDataHandler.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\Usecases\\UploadSensorDataHandler.cs",
               "RelativeDocumentMoniker": "H2.Application\\Usecases\\UploadSensorDataHandler.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\Usecases\\UploadSensorDataHandler.cs",
               "RelativeToolTip": "H2.Application\\Usecases\\UploadSensorDataHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-03T04:08:35.318Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SensorDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "RelativeDocumentMoniker": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "RelativeToolTip": "H2.Infrastructure\\Persistence\\Repositories\\SensorDataRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:12:01.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UploadSensorDataDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "RelativeDocumentMoniker": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "RelativeToolTip": "H2.Application\\DTOs\\UploadSensorDataDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T04:12:24.615Z"
             },
             {
               "$type": "Document",
@@ -176,12 +173,11 @@
               "RelativeToolTip": "H2.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T04:04:04.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T04:04:04.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\H2(lowVersion)\\src\\H2.API\\Program.cs",
               "RelativeDocumentMoniker": "H2.API\\Program.cs",
@@ -189,8 +185,7 @@
               "RelativeToolTip": "H2.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T03:40:12.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T03:40:12.963Z"
             },
             {
               "$type": "Document",

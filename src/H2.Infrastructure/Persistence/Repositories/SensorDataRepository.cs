@@ -13,16 +13,9 @@ namespace H2_Infrastructure.Persistence.Repositories
         {
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
-        public async Task AddAsync(UploadSensorDataDTO sensorData, CancellationToken cancellationToken)
+        public async Task AddAsync(SensorData sensorData, CancellationToken cancellationToken)
         {
-            var entity = new SensorData
-            {
-                Id = Guid.NewGuid(),
-                DeviceId = sensorData.DeviceId,
-                HydrogenPpm = sensorData.HydrogenPpm,
-                AlertLevel = AlertEvaluator.Evaluate(sensorData.HydrogenPpm),
-                Timestamp = DateTime.UtcNow
-            };
+            _context.sensorDatas.Add(sensorData);
             await _context.SaveChangesAsync(cancellationToken);
         }
 

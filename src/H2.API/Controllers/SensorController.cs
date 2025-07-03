@@ -1,5 +1,6 @@
 ﻿using H2.Application.DTOs;
 using H2.Application.Interfaces;
+using H2.Application.Usecases;
 using H2.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,6 +12,7 @@ namespace H2.API.Controllers
     public class SensorController : ControllerBase
     {
         private readonly ISensorDataRepository _sensorDataRepository;
+        private readonly UploadSensorDataHandler _uploadSensorDataHandler;
         public SensorController(ISensorDataRepository sensorDataRepository)
         {
             _sensorDataRepository = sensorDataRepository ?? throw new ArgumentNullException(nameof(sensorDataRepository));
@@ -32,7 +34,7 @@ namespace H2.API.Controllers
             {
                 return BadRequest("Invalid sensor data.");
             }
-            await _sensorDataRepository.AddAsync(dto, cancellationToken);
+            await _uploadSensorDataHandler.HandleAsync(dto, cancellationToken);
             return CreatedAtAction(nameof(GetLatestSensorDataAsync), new { deviceId = dto.DeviceId }, dto);
         }
     }
